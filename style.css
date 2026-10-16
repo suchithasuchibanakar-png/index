@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(146, 182, 193);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+form {
+    background-color: rgb(47, 80, 107);
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    color: darkblue;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid rgb(107, 21, 21);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(117, 164, 204);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
